@@ -10,18 +10,16 @@
 
 ## :rocket: Sobre o desafio
 
-Aplicação do zero utilizando **Webpack, Babel, Webpack Dev Server e ReactJS**.
+Solução do quarto desafio proposto pela [Rocketseat](https://rocketseat.com.br/) através de seu [bootcamp](https://rocketseat.com.br/bootcamp)
 
-Nessa aplicação foi desenvolvido uma **interface** semelhante com a do **Facebook** utilizando React.
+O desafio propõe a criação de uma aplicação do zero com a **interface** semelhante a do **Facebook**, utilizando **Webpack, Babel, Webpack Dev Server e ReactJS**.
 
-As informações contidas na interface são **estáticas**.
+As informações contidas na interface estão **estáticas**.
 
 O resultado do desafio pode ser consultado neste [nesse link](https://alannsiqueira-bootcamp-gostack-desafio-04.netlify.com/)
 
-### Tela da aplicação
+### Layout
 
 ![Facebook](.github/facebook.png)
-
-O layout não precisa ficar exatamente igual, você pode utilizar sua criatividade para modificar da maneira que preferir.
 
 O layout da aplicação está [nesse link](.github/layout.sketch) que pode ser aberto por essa ferramenta gratuita e online: https://www.figma.com/
