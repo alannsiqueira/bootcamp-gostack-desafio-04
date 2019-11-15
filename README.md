@@ -16,7 +16,7 @@ Nessa aplicação foi desenvolvido uma **interface** semelhante com a do **Faceb
 
 As informações contidas na interface são **estáticas**.
 
-O resultado da aplicação pode ser consultada neste [nesse link](https://alannsiqueira-bootcamp-gostack-desafio-04.netlify.com/)
+O resultado do desafio pode ser consultado neste [nesse link](https://alannsiqueira-bootcamp-gostack-desafio-04.netlify.com/)
 
 ### Tela da aplicação
 
