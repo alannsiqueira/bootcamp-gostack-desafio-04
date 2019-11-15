@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+*{
+    margin:0;
+    list-style: none;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --azul: #4A90E2;
+    --cinza: #F2F2F2
+}
+
+html,body,#root {
+    min-height: 100%;
+}
+
+body{
+    background-color:var(--cinza);
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-fon-webkit-font-smoothing: antialiased;
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--azul);
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 42px;
+    color: #fff;
+    min-width: 980px;
+    font-size: 14px;
+  }
+  
+  nav img {
+    height: 24px;
+  }
+  
+  nav > .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav .profile > span:first-of-type {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  nav > .profile > i:first-of-type {
+    margin-left: 8px;
+  }
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background: #eeeeee;
+  }
+
+img.avatar{
+    border-radius: 100%;
+    height: 32px;
+    width: 32px;
+}
+
+.avatar-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-wrapper .detail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.avatar-wrapper .detail > strong{
+    font-size: 14px;
+    color: #4a4a4a;
+    margin-bottom: 3px;
+}
+.avatar-wrapper .detail > .date{
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    color: #9a9a9a;
+    line-height: 14px;
+}
+
+.post-list{
+    margin: 0 auto 20px;
+}
+
+
+.post{
+    margin-top: 20px;
+    border-radius: 8px;
+    background: white;
+    padding: 20px;
+    color: #3e3e3e;
+    line-height: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.post-content {
+    margin: 20px 0;
+    font-size: 14px;
+    display: block;
+  }
+
+.comment {
+    display: flex;
+    margin-top: 20px;
+}
+
+.comment-wrapper {
+    border-radius: 20px;
+    background: #eeeeee;
+    margin-left: 10px;
+    padding: 15px;
+    font-size: 13px;
+  }
+  
+  .comment-wrapper > strong:first-of-type{
+      font-weight: bold;
+      margin-right: 6px;
+  }
